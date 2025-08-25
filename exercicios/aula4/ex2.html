@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>registrar produto</title>
+</head>
+<body>
+<form>
+<label for="nome_do_produto">nome do produto:</label><br>
+<input id="nome_do_produto" type="text" placeholder="Produto" required>
+<br><br>
+<label for="text_descricao">Descrição do produto:</label> <br>
+<textarea id="text_descricao" cols="30" rows="50"></textarea>
+<br><br>
+<label for="menu_categoria">Categoria</label> <br>
+<select id="menu_categoria">
+    <optgroup label="categoria">
+        <option>Eletronicos</option>
+        <option>Livros</option>
+        <option>Brinquedos</option>
+        <option>Esportes</option>
+        <option>Calçados</option>
+    </optgroup>
+</select>
+<br><br>
+<label for="menu_países">País</label><br>
+<select id="menu_países">
+    <optgroup label="Países">
+        <option>Brasil</option>
+        <option>EUA</option>
+        <option>China</option>
+        <option>Angola</option>
+        <option>França</option>
+    </optgroup>
+</select>
+<br><br>
+<label for="preco_do_produto">Preço do produto:</label><br>
+<input id="preco_do_produto" type="number" placeholder="Preço$" required>
+<br><br>
+<label for="data_do_produto">Data do produto:</label><br>
+<input id="data_do_produto" type="date" placeholder="Data" required>
+<button type="submit">ENVIAR</button>
+<button type="reset">REDEFINIR</button>
+</form>
+
+
+</body>
+</html>
